@@ -5,9 +5,10 @@ from tkinter import ttk, messagebox
 
 GUI = Tk()
 GUI.title('Program USD to BATH')
-GUI.geometry('700x600')
+GUI.geometry('600x500')
 
-bg = PhotoImage(file='dollarlogo.png')
+# bg = PhotoImage(file='dollarlogo.png') #You can use this instead 
+bg = PhotoImage(file=r'C:\Code\Basic Python\Basic_Project\dollarlogo.png') #This is good to use
 
 #Picture
 BG = Label(GUI, image=bg )
